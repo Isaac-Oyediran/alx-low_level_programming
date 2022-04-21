@@ -25,5 +25,4 @@ void rev_string(char *s)
 		s[i] = temp;
 		i++;
 	}
-
 }
