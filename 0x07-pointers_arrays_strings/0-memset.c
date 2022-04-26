@@ -5,7 +5,7 @@
  * _memset - a function that fills memory with a constant byte
  * @s: input pointer to char type represents the pointer to the block of memory to fill
  * @b: input variable of char type represents the character to fill s
- * @n: unsigned int variable the number of bytes to be filled
+ * @n: unsigned int n variable the number of bytes to be filled
  * Return: A pointer to the filled memory area @s
  */
 char *_memset(char *s, char b, unsigned int)
@@ -15,8 +15,7 @@ char *_memset(char *s, char b, unsigned int)
 
 	while (i < n)
 	{
-		s[i] = b;
-		i++;
+		s[i] = b; i++;
 	}
 	return (s);
 }
