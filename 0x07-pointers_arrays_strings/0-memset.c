@@ -8,14 +8,15 @@
  * @n: unsigned int variable the number of bytes to be filled
  * Return: A pointer to the filled memory area @s
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int)
 {
 	unsigned int i;
 	i = 0;
 
 	while (i < n)
 	{
-		s[i] = b; i++;
+		s[i] = b;
+		i++;
 	}
 	return (s);
 }
