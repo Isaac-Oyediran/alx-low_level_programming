@@ -4,7 +4,7 @@
  * @x: number
  * @y: power
  * Return: On Success 1
- * On error, _1 is returned and the error is fixed appropriately
+ * On error, -1 is returned and the error is fixed appropriately
  */
 int _pow_recursion(int x, int y)
 {
