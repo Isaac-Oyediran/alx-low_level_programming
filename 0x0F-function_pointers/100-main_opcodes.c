@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 {
 	int n;
 
-	if (argc != 2)
+	if (argv != 2)
 	{
 		printf("Error\n");
 		exit(1);
